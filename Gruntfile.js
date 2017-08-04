@@ -6,17 +6,24 @@ module.exports = function(grunt) {
         options: {
           engine: 'gm',
           sizes: [{
-            name: 'verysmall',
-            width: '10%',
-            suffix: '_verysmall',
-            quality: 15
-          }]
+            name: 'small',
+            width: '30%',
+            suffix: '_small',
+            quality: 20
+          },
+          {
+            name:'large',
+            width:'60%',
+            suffix:'_large',
+            quality: 40
+          } 
+          ]
         },
         files: [{
           expand: true,
           src: ['*.{gif,jpg,png}'],
-          cwd: 'views/images/',
-          dest: 'views/images/dest/'
+          cwd: 'img/',
+          dest: 'img/dest/'
         }]
       }
     },
@@ -45,6 +52,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-node-minify');
-  grunt.registerTask('default', ['responsive_images', 'cssmin','node-minify']);
- // grunt.registerTask('default', ['responsive_images']);
+ // grunt.registerTask('default', ['responsive_images', 'cssmin','node-minify']);
+  grunt.registerTask('default', ['responsive_images']);
 };
