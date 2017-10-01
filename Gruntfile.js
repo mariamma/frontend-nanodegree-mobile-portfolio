@@ -53,5 +53,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-node-minify');
  // grunt.registerTask('default', ['responsive_images', 'cssmin','node-minify']);
-  grunt.registerTask('default', ['responsive_images']);
+  grunt.registerTask('default', ['node-minify']);
 };

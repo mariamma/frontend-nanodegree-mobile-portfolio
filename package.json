@@ -18,7 +18,7 @@
   "homepage": "https://github.com/mariamma/frontend-nanodegree-mobile-portfolio#readme",
   "devDependencies": {
     "grunt-contrib-cssmin": "^2.2.1",
-    "grunt-node-minify": "^1.2.1",
+    "grunt-node-minify": "^1.2.2",
     "grunt-responsive-images": "^1.10.1"
   }
 }
