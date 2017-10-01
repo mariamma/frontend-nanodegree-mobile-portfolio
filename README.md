@@ -1,8 +1,6 @@
 ## Website Performance Optimization portfolio project
 
 
-To get started, check out the repository and inspect the code.
-
 ### To run the project
 
 1. Check out the repository
