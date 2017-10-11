@@ -22,7 +22,7 @@
 Copy the public URL ngrok gives you and try running it through PageSpeed Insights! 
 
 
-###Optimizations done
+### Optimizations done
 1. Reducing size of images
 1. Moving redundant code out of the loop
 1. Optimize recalculate styles
